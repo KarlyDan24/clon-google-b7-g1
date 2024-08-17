@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    --colorgris: #eeeeee84;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 99.24vh;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px 0px;
+}
+
+.perfil {
+    height: 32px;
+    width: 32px;
+    border-radius: 24px;
+    padding: 8px;
+}
+
+.menu {
+    padding-left: 10px;
+}
+
+.barra {
+    display: flex;
+    justify-content: flex-end;
+    margin: 6px 2px 4px 6px;
+    font-size: 14px;
+}
+
+.barra, ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+}
+.barra, li {
+    padding: 0px 4px;
+
+}
+
+.barra, a {
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+
+.boton{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    border: 1px solid #ccc;
+}
+
+
+.botones{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+}
+
+footer a {
+    color: #202124;
+}
+
+.icono {
+    height: 24px;
+    width: 24px;
+}
+
+.buscador {
+    display: flex;
+    width: 584px;
+    height: 46px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.buscador:hover {
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    background-color: white;
+}
+
+.boton {
+    background-color: var(--colorgris);
+    border: 0.8px;
+    border-radius: 6px;
+}
+
+.entradas {
+    padding: 20px 0 0;
+    height: 120px;
+    margin-top: 6px;
+}
+
+.icono-buscador {
+    height: 20px;
+    width: 20px;
+}
+
+.texto {
+    font-size: 16px;
+    height: 46px;
+    width: 444px;
+    outline: none;
+    border: none;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+}
+
+.busc {
+    padding: 0 13px 0 14px;
+}
+
+.mis {
+    padding: 0 8px;
+}
+
+footer {
+    display: flex;
+    bottom: 0px;
+    height: 47.8%;
+}
+
+.footer {
+    margin-top: auto;
+    display: block;
+    width: 100%;
+}
+
+.altufooter {
+    height: 96px;
+}
+
+.mexico {
+    padding: 15px 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 100px;
+    max-height: 46px;
+}
+
+footer li {
+    font-size: 14px;
+    padding: 15px;
+}
+
+.backgr {
+    background-color: var(--colorgris);
+}
+
+.outlinea:hover {
+    text-decoration: underline;
+}
